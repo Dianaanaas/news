@@ -1,0 +1,57 @@
+.newsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .newsFeed {
+    padding: 20px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #5597a6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .button:disabled {
+    background-color: #33646f;
+    color: #a0a0a0; 
+    cursor: not-allowed;
+  }
+  
+  .loaderContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 568px) and (min-width: 320px) {
+
+    .newsFeed {
+      padding: 10px;
+    }
+    .buttonGroup {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .button {
+      width: 100%;
+      margin: 5px 0px;
+      padding: 10px 0px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }

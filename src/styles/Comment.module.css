@@ -1,0 +1,16 @@
+.comment {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-left: 2px solid #ddd;
+  }
+  
+  .comment strong {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .comment p {
+    font-size: 14px;
+    color: #666;
+  }
+  

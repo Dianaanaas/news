@@ -1,0 +1,25 @@
+.newsDetails {
+    padding: 20px;
+  }
+  
+  .newsDetails h1 {
+    margin-bottom: 20px;
+  }
+  
+  .newsDetails p {
+    margin: 5px 0;
+  }
+  
+  .newsDetails a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .newsDetails a:hover {
+    text-decoration: underline;
+  }
+  
+  .newsDetails h2 {
+    margin-top: 20px;
+  }
+  
